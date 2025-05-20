@@ -2,14 +2,14 @@
 Configurar un servidor de Ubuntu Server 24.04 LTS para alojar una web simple utilizando XAMPP  
 
 ## 1. Instalación del servidor *(apartados 1 y 2)*
-Una vez creada la máquina virtual de Ubuntu Server en VirtualBox, solo hace falta añadirle desde la configuración un Adaptador Puente y comprobar su dirección IP (una opción cómoda es mediante el comando iconfig de *net-tools*.
+Una vez creada la máquina virtual de Ubuntu Server en VirtualBox, solo hace falta añadirle desde la configuración un Adaptador Puente y comprobar su dirección IP (una opción cómoda es mediante el comando iconfig de *net-tools*).
 En la siguiente imagen se puede comprobar la conexión entre ambas máquinas virtuales con el comando ping.
 ![image](https://github.com/user-attachments/assets/d2102d7e-ea26-4f86-9244-6a6287b7430e)
 
 
 ## 2. Instalación XAMPP *(apartado 3)*
 Mediante el comando ```wget``` se puede descargar el instalador de xampp directamente en el servidor mediante su cli. En mi caso escogí la versión 8.2.0 del sourceforge de excellmedia. 
-Una vez descargado, se le da permisos de ejecución con ```chmod 755 [nombre del archivo]```, y se instala con ```sudo ./[nombre del archivo]```. Se instalará en /otp/lampp, y se inicia el servicio con ````sudo /otp/lampp/lampp start```. Esto iniciará los servicios Apache, MySQL y ProFTPD. Una vez iniciados, se puede acceder desde cualquier ordenador en la misma red yendo a la dirección IP del servidor en un navegador.
+Una vez descargado, se le da permisos de ejecución con ```chmod 755 [nombre del archivo]```, y se instala con ```sudo ./[nombre del archivo]```. Se instalará en /otp/lampp, y se inicia el servicio con ```sudo /otp/lampp/lampp start```. Esto iniciará los servicios Apache, MySQL y ProFTPD. Una vez iniciados, se puede acceder desde cualquier ordenador en la misma red yendo a la dirección IP del servidor en un navegador.
 ![image](https://github.com/user-attachments/assets/56545369-5311-477a-9483-6e648eb9af9e)
 
 ## 3. Creación de usuarios *(apartados 4, 5 y 6)*
