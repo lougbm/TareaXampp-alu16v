@@ -1,2 +1,2 @@
-# TareaXampp-alu16v
+# Tarea Xampp en Linux Ubuntu Server - alu16v
 Configurar un servidor de Ubuntu Server 24.04 LTS para alojar una web simple utilizando XAMPP  
